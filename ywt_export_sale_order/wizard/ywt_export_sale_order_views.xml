@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="ywt_export_sale_order_form_view" model="ir.ui.view">
+		<field name="name">ywt.export.sale.order.view.form</field>
+		<field name="model">ywt.export.sale.order</field>
+		<field name="arch" type="xml">
+			<form string="Export Sale Order">
+				<group>
+					<field name="filter_product" widget="radio"/>
+				</group>
+				<footer>
+					<button string='Export Sale Order'
+						name="ywt_exprot_sale_order" type="object" class="btn-primary" />
+					<button string="Cancel" class="btn-default" special="cancel" />
+				</footer>
+			</form>
+		</field>
+	</record>
+	<act_window id="act_window_ywt_export_sale_order"
+		name="Export Sale Orders" res_model="ywt.export.sale.order"
+		key2="client_action_multi" target="new" src_model="sale.order"
+		view_mode="form" />
+
+</odoo>

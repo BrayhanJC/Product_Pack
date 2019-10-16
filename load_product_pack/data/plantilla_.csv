@@ -1,0 +1,10 @@
+id_producto,name,tipo_producto,is_pack,pack_price_type,pack_line_ids,cantidad,discount,precio_venta,costo
+APU-1-1,1-1 - Cable Encauchetado 3x18 AWG CENTELSA,service,true,totalice_price,6130,0.06,10,,
+,,,,,209387,1.00,10,,
+,,,,,producto nuevo,0.06,10,,
+APU-1-2,1-2 - Cable Encauchetado 3x16 AWG CENTELSA,service,true,totalice_price,6130,0.06,5,,
+,,,,,209392,1.00,10,,
+,,,,,producto nuevo,0.06,5,,
+APU-1-3,1-3 - Cable Encauchetado 3x14 AWG CENTELSA,service,true,totalice_price,6130,0.03,10,,
+,,,,,209396,1.00,10,,
+,,,,,producto nuevo,0.06,10,,

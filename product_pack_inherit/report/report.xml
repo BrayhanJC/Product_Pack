@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+            id="menu_sale_order_pack"
+            model="sale.order"
+            string="Sale Order Pack"
+            report_type="qweb-pdf"
+            name="product_pack_inherit.report_pack"
+            file="product_pack_inherit.report_pack"
+            print_report_name="(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
+        />
+
+        <report
+            id="menu_sale_order_pack_line"
+            model="sale.order"
+            string="Sale Order Pack Line"
+            report_type="qweb-pdf"
+            name="product_pack_inherit.report_pack_line"
+            file="product_pack_inherit.report_pack_line"
+            print_report_name="(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
+        />
+
+
+    </data>
+</odoo>
